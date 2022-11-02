@@ -113,5 +113,7 @@ const { developmentChains, networkConfig } = require("../../helper-hardhat-confi
                       vrfCoordinatorV2Mock.fulfullRandomWords(1, raffle.address)
                   ).to.be.revertedWith("nonexistant request")
               })
+              //wayyyy to big
+              it("picks a winner, resets the lottery and send the money", async () => {})
           })
       })
